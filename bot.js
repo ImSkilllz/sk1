@@ -3,8 +3,8 @@
   bot1.on("ready", async () => {
   console.log(`Username: ${bot1.user.tag}`);
   console.log(`on: ${bot1.guilds.size} guild(s)`);
-  let guildid = '523637201825955842',
-      cid = '523637480986116102';
+  let guildid = '528611091341770762',
+      cid = '528612538217267230';
   let guild = bot1.guilds.get(guildid);
   let channel = guild.channels.find(c => c.id == cid);
   let size = 0;
@@ -35,8 +35,8 @@ const bot2 = new Discord.Client();
 bot2.on("ready", async () => {
   console.log(`Username: ${bot2.user.tag}`);
   console.log(`on: ${bot2.guilds.size} guild(s)`);
-  let guildid = '523637201825955842',
-      cid = '523637480986116102';
+  let guildid = '528611091341770762',
+      cid = '528612538217267230';
   let guild = bot2.guilds.get(guildid);
   let channel = guild.channels.find(c => c.id == cid);
   let size = 0;
@@ -67,7 +67,7 @@ const bot3 = new Discord.Client();
 bot3.on("ready", async () => {
   console.log(`Username: ${bot3.user.tag}`);
   console.log(`on: ${bot3.guilds.size} guild(s)`);
-  let guildid = '523637201825955842',
+  let guildid = '528611091341770762',
       cid = '523637480986116102';
   let guild = bot3.guilds.get(guildid);
   let channel = guild.channels.find(c => c.id == cid);
@@ -100,8 +100,8 @@ bot3.login(process.env.spam3);
   bot1.on("ready", async () => {
   console.log(`Username: ${bot4.user.tag}`);
   console.log(`on: ${bot4.guilds.size} guild(s)`);
-  let guildid = '523637201825955842',
-      cid = '523637480986116102';
+  let guildid = '528611091341770762',
+      cid = '528612538217267230';
   let guild = bot4.guilds.get(guildid);
   let channel = guild.channels.find(c => c.id == cid);
   let size = 0;
@@ -132,8 +132,8 @@ const bot5 = new Discord.Client();
 bot5.on("ready", async () => {
   console.log(`Username: ${bot5.user.tag}`);
   console.log(`on: ${bot5.guilds.size} guild(s)`);
-  let guildid = '523637201825955842',
-      cid = '523637480986116102';
+  let guildid = '528611091341770762',
+      cid = '528612538217267230';
   let guild = bot5.guilds.get(guildid);
   let channel = guild.channels.find(c => c.id == cid);
   let size = 0;
@@ -164,8 +164,8 @@ const bot6 = new Discord.Client();
 bot6.on("ready", async () => {
   console.log(`Username: ${bot6.user.tag}`);
   console.log(`on: ${bot6.guilds.size} guild(s)`);
-  let guildid = '523637201825955842',
-      cid = '523637480986116102';
+  let guildid = '528611091341770762',
+      cid = '528612538217267230';
   let guild = bot3.guilds.get(guildid);
   let channel = guild.channels.find(c => c.id == cid);
   let size = 0;
