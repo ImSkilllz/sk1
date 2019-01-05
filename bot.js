@@ -68,7 +68,7 @@ bot3.on("ready", async () => {
   console.log(`Username: ${bot3.user.tag}`);
   console.log(`on: ${bot3.guilds.size} guild(s)`);
   let guildid = '528611091341770762',
-      cid = '523637480986116102';
+      cid = '528612538217267230';
   let guild = bot3.guilds.get(guildid);
   let channel = guild.channels.find(c => c.id == cid);
   let size = 0;
