@@ -126,7 +126,7 @@ message.channel.send(`${args}`);
 }
 });
 
-bot4.login(process.env.spam1);
+bot4.login(process.env.spam4);
 /////////////////////////////////////////////////////////////////////////////////////////////////////
 const bot5 = new Discord.Client();
 bot5.on("ready", async () => {
@@ -158,7 +158,7 @@ message.channel.send(`${args}`);
 }
 });
 
-bot5.login(process.env.spam2);
+bot5.login(process.env.spam5);
 /////////////////////////////////////////////////////////////////////////////////
 const bot6 = new Discord.Client();
 bot6.on("ready", async () => {
@@ -190,4 +190,4 @@ message.channel.send(`${args}`);
 }
 });
 
-bot6.login(process.env.spam3);
+bot6.login(process.env.spam6);
